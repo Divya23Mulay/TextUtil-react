@@ -1,5 +1,5 @@
 {
-  "homepage": "https://Divya23Mulay.github.io/TextUtils",
+  "homepage": "https://Divya23Mulay.github.io/TextUtil-react",
   "name": "my-app",
   "version": "0.1.0",
   "private": true,
@@ -7,7 +7,6 @@
     "build": "^0.1.4",
     "cra-template": "1.2.0",
     "dom": "^0.0.3",
-    "gh-pages": "^6.3.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-router": "^7.1.5",
@@ -17,7 +16,7 @@
   },
   "scripts": {
     "predeploy": "npm run build",
-     "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -42,6 +41,7 @@
     ]
   },
   "devDependencies": {
-    "@babel/plugin-proposal-private-property-in-object": "^7.21.11"
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+    "gh-pages": "^6.3.0"
   }
 }
